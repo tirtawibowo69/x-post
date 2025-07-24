@@ -8,7 +8,7 @@ on:
     # 17:00 UTC -> 1 PM ET / 10 AM PT (Siang East Coast / Pagi West Coast)
     # 22:00 UTC -> 6 PM ET / 3 PM PT (Sore)
     # 03:00 UTC -> 11 PM ET / 8 PM PT (Malam)
-    - cron: '0 13,17,22,3 * * *'
+    - cron: '0 13,22,3 * * *'
 
 jobs:
   build-and-post:
