@@ -42,8 +42,7 @@ def generate_post_with_gemini(trends, link):
     # --- DIUBAH --- Prompt yang lebih detail untuk menghasilkan CTA
     prompt = (
         f"You are a social media expert creating a post for X.com. "
-        f"Write a short, engaging post in English about news these topics: Get Free Airdrop. "
-        f"The post MUST include a strong Call to Action {link} "       
+        f"Write a short, engaging post in English about these topics: '{', '.join(trends)}'. The post MUST include a strong Call to Action {link}"
         f"Do NOT add any hashtags in your response. Just provide the main text with the CTA and the link."
     )
     
